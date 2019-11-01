@@ -1,0 +1,127 @@
+.my_card {
+  opacity: 1;
+  background-color: red;
+}
+.menu {
+    margin-left: 40px;
+}
+
+.menu2 {
+    margin-right: 40px;
+}
+
+.macol {
+    padding: 1rem;
+    background-color: #33b5e5;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .macolumn {
+    float: center; /* float center width 100% = horizontal column & padding de 1 px en y */
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .marow {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .marow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .macolumn {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .macard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: lightslategrey;
+    margin: 20px 10px 10px 10px;
+  }
+
+  /*.card_home {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    margin: 20px 10px 10px 10px;
+  }*/
+
+ 
+
+  .macard_home {
+    text-align: center;
+    opacity: 1;
+ }
+  
+  .card-body {
+    margin-left: 30px;
+  }
+
+  .card .card-body .card-text {
+    margin-top: 50px;
+  }
+
+
+
+  .macolumn2 {
+    float: left; /* float center width 100% = horizontal column & padding de 1 px en y */
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .marow2 {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .marow2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .macolumn2 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .macard2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: lightslategrey;
+    width: 400px;
+  }
+
+  .macard2_hoodies {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: lightslategrey;
+  }
